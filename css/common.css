@@ -1,0 +1,306 @@
+body
+{
+    background: #fafafa;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+img
+{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#logoContainer img
+{
+    max-width: 100%;
+    height: auto;
+}
+.navbar ,.navbar-default
+{
+    height: 40px;
+    background: #fafafa;
+}
+#navbar li
+{
+    height: 48px;
+    z-index: 100;
+    background: #fafafa;
+    padding-top: 3px;
+}
+#navbar li a img
+{
+    vertical-align: middle;
+    margin: 0 15px;
+    width: 35px;
+    height: 35px;
+}
+#navbar li a
+{
+    height: 50px;
+    line-height: 40px;
+    padding: 0;
+    color: #abb2b4;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "SimHei";
+    outline: none;
+}
+#navbar li a:hover
+{
+    color: #f3a318;
+}
+#navbar li .small-menu img
+{
+    width: 20px;
+    height: 20px;
+}
+#navbar li .small-menu
+{
+    font-size: 16px;
+}
+    .centerPic .column
+{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: "SimHei";
+}
+.centerPic
+{
+    width:100%;
+    margin-top: -20px;
+}
+
+.centerPic .container
+{
+    width: 100%;
+}
+.centerPic .container .clearfix,.centerPic .container .column
+{
+    padding: 0;
+}
+.centerPic .container .clearfix
+{
+    background: #4d577a;
+}
+.centerPic .container .clearfix .leftTextBox
+{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.centerPic .column h1
+{
+    font-size: 45px;
+}
+@media (max-width: 768px)
+{  .centerPic .column h1
+    {
+    font-size: 25px;
+    }
+    .centerPic .column h2
+    {
+        font-size: 15px;
+    }
+    .centerPic .column h3
+    {
+        font-size: 12px;
+    }
+    .centerPic .column h4
+    {
+        font-size: 10px;
+    }
+    .centerPic .column p
+    {
+        margin-bottom: -10px;
+    }
+    .centerPic .container .clearfix .leftTextBox
+    {
+        margin: 30px 10px 30px 20px;
+        height:180px;
+    }
+}
+.moveBox .centerRightBox .img-responsive
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media (max-width: 1024px)
+{
+    .centerPic .container .clearfix .leftTextBox
+    {
+        margin: 30px 10px 20px 20px;
+    }
+}
+@media (max-width: 400px) {
+    .chooseUser ul li a span {
+        font-size: 12px;
+    }
+    .footer .copyRight
+    {
+        font-size: 10px;
+    }
+    .centerPic .container .clearfix .leftTextBox
+    {
+        margin: 30px 10px 30px 20px;
+        height:180px;
+    }
+}
+.chooseUser
+{
+    width: 100%;
+    text-align: center;
+}
+.chooseUser ul
+{
+    width: inherit;
+}
+.chooseUser ul li
+{
+    width: 33%;
+    margin-left: -10px;
+}
+.chooseUser ul li a span
+{
+    display: block;
+    letter-spacing: 0;
+    margin-top: -20px;
+}
+.chooseUser ul li .user
+{
+    max-width:100%;
+    height: auto;
+}
+.centerPic .chooseUser
+{
+   position: absolute;
+    bottom: 8px;
+}
+.centerPic .chooseUser ul li
+{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+.centerPic .chooseUser ul li a
+{
+    color: white;
+}
+.centerPic .chooseUser ul li:hover a
+{
+    color: #f3a318;
+    text-decoration: none;
+}
+.footer
+{
+    max-width: 100%;
+    background: #e8e8e8;
+    color: #a0a0a0;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+.footerLinkBox
+{
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.footerLinkBox a
+{
+    color: #8c8c8c;
+    font-weight: bolder;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+.footerLinkBox a:hover
+{
+    color: #f3a318;
+}
+.copyRight
+{
+    background: #e8e8e8;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 13px;
+    height: auto;
+}
+.modal-content
+{
+    background: #494949;
+    color: #ececec;
+}
+.modal-body
+{
+    text-align: center;
+}
+.loginBox
+{
+    display: inline-block;
+    width: 40%;
+}
+.loginBox img
+{
+    width: 40px;
+    height: 40px;
+}
+.loginBox a
+{
+    color: white;
+    text-align: center;
+    outline: none;
+}
+.loginBox hr
+{
+    width: 100px;
+    margin: 10px auto;
+}
+.loginBox a span
+{
+    display: block;
+    margin-top: -15px;
+}
+.loginBox:hover a{
+    text-decoration: none;
+    color: #f3a318;
+}
+.loginBox:hover hr
+{
+    animation:textMove 1s;
+    -moz-animation:textMove 1s; /* Firefox */
+    -webkit-animation:textMove 1s; /* Safari and Chrome */
+    -o-animation:textMove 1s; /* Opera */
+}
+.modal-header
+{
+    border-bottom: 0;
+}
+.modal-footer
+{
+    border-top: 0;
+}
+@keyframes textMove
+{
+    from {width:0;}
+    to { width: 100px;}
+}
+
+@-moz-keyframes textMove /* Firefox */
+{  from {width:0;}
+    to { width:100px;}
+}
+
+@-webkit-keyframes textMove /* Safari and Chrome */
+{
+    from {width:0;}
+    to { width: 100px;}
+}
+
+@-o-keyframes textMove /* Opera */
+{
+    from {width:0;}
+    to { width: 100px;}
+}
